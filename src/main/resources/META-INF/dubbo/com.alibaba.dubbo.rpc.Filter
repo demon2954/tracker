@@ -1,0 +1,2 @@
+traceProviderFilter=com.lizikj.tracker.filter.TraceProviderFilter
+traceConsumerFilter=com.lizikj.tracker.filter.TraceConsumerFilter
