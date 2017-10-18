@@ -11,7 +11,6 @@ import com.alibaba.dubbo.rpc.Invocation;
 import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.Result;
 import com.alibaba.dubbo.rpc.RpcException;
-import com.lizikj.tracker.SpanManager;
 import com.lizikj.tracker.context.TraceContext;
 import com.lizikj.tracker.pojo.Annotation;
 import com.lizikj.tracker.pojo.Endpoint;
@@ -20,6 +19,7 @@ import com.lizikj.tracker.thread.SpanSender;
 import com.lizikj.tracker.utils.IdUtils;
 import com.lizikj.tracker.utils.NetworkUtils;
 import com.lizikj.tracker.utils.RpcContextUtils;
+import com.lizikj.tracker.utils.SpanManager;
 
 /**
  * 消费端日志过滤器

@@ -2,11 +2,11 @@ package com.lizikj.tracker.thread;
 
 import java.util.List;
 
-import com.lizikj.tracker.SpanManager;
 import com.lizikj.tracker.context.TraceContext;
 import com.lizikj.tracker.pojo.Span;
 import com.lizikj.tracker.utils.HttpClientUtils;
 import com.lizikj.tracker.utils.JsonUtils;
+import com.lizikj.tracker.utils.SpanManager;
 
 /**
  *
